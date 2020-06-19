@@ -14,7 +14,7 @@
 <br>
 
 * ### Sig up 
-![sign up](https://github.com/RuthMaria/facebook-login/tree/master/public/screen/sigup.png) 
+![sign up](https://github.com/RuthMaria/facebook-login/blob/master/public/screen/sigup.png) 
 
 <br>
 
@@ -45,31 +45,45 @@
 
 - Create a [Facebook Developer Account](https://www.facebook.com/login.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Fapps%2F)
 
+<br>
+
 - Add a new app
-![home](https://github.com/RuthMaria/facebook-login/tree/master/public/screen/home.png)
+![home](https://github.com/RuthMaria/facebook-login/blob/master/public/screen/home.png)
+
+<br>
 
 - Choose "For Everything Else" and called "ecoleta" the new app
-![newApp](https://github.com/RuthMaria/facebook-login/tree/master/public/screen/newApp.png)
+![newApp](https://github.com/RuthMaria/facebook-login/blob/master/public/screen/newApp.png)
+
+<br>
 
 - Choose "Facebook login" on products
-![facebook-login](https://github.com/RuthMaria/facebook-login/tree/master/public/screen/facebook-login.png)
+![facebook-login](https://github.com/RuthMaria/facebook-login/blob/master/public/screen/facebook-login.png)
+
+<br>
 
 - Select the platform web 
-![plataform](https://github.com/RuthMaria/facebook-login/tree/master/public/screen/plataform.png)
+![plataform](https://github.com/RuthMaria/facebook-login/blob/master/public/screen/plataform.png)
+
+<br>
 
 - Add "https://localhost:3000/" to the Site URL
-![URLsite](https://github.com/RuthMaria/facebook-login/tree/master/public/screen/urlSite.png)
+![URLsite](https://github.com/RuthMaria/facebook-login/blob/master/public/screen/urlSite.png)
+
+<br>
 
 - In the basic settings:
     - Add "localhost" to the App Domains
     - Select "Bussiness and Pages" in the category
-    ![basicSettings](https://github.com/RuthMaria/facebook-login/tree/master/public/screen/basicSettings.png)
-
- - Change the [AppID](https://github.com/RuthMaria/NLW/blob/master/public/scripts/index.js#L3) to your account's
+    ![basicSettings](https://github.com/RuthMaria/facebook-login/blob/master/public/screen/basicSettings.png)
 
 <br>
 
-##  :ancho Run the project locally
+ - Change the [AppID](https://github.com/RuthMaria/facebook-login/blob/master/public/scripts/index.js#L3) to your account's
+
+<br>
+
+## :anchor: Run the project locally
 
 
 ### Commands
