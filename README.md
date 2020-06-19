@@ -15,7 +15,6 @@
 * ### Sign up 
 ![sign up](https://github.com/RuthMaria/facebook-login/blob/master/public/screen/signup.png) 
 
-<br>
 
 ## :computer: Technologies Used
  * HTML
@@ -79,6 +78,11 @@
 <br>
 
  - Change the [AppID](https://github.com/RuthMaria/facebook-login/blob/master/public/scripts/index.js#L3) to your account's
+
+<br>
+
+- By default, the account gives access to the user's email, name and photo. If you want more permissions, just click on "App Review" and add.
+![permissions](https://github.com/RuthMaria/facebook-login/blob/master/public/screen/permissions.png)
 
 <br>
 

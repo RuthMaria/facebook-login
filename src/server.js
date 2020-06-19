@@ -14,6 +14,7 @@ app.get('/', (req, res) => {
     res.render("index.html")
 })
 
-app.listen(3000, () => {
-    console.log("Conectado")
+const PORT = 3000
+app.listen(PORT, () => {
+    console.log("The server is running on URL http://localhost:" + PORT)
 })
