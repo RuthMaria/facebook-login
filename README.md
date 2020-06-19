@@ -1,5 +1,5 @@
 
- <h1 align="center"> Facebook Log in </h1>
+ <h1 align="center"> <img src="./public/screen/facebook-icon.svg"></img> Facebook Log in </h1>
 
 <br>
 
@@ -11,10 +11,9 @@
 <br>
 
 ## :iphone: Screen
-<br>
 
-* ### Sig up 
-![sign up](https://github.com/RuthMaria/facebook-login/blob/master/public/screen/sigup.png) 
+* ### Sign up 
+![sign up](https://github.com/RuthMaria/facebook-login/blob/master/public/screen/signup.png) 
 
 <br>
 
