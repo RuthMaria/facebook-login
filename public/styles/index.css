@@ -1,0 +1,118 @@
+#page-login{
+    width: 56%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+*{
+    padding: 0;
+    margin:0;
+}
+
+#page-login .field-group{
+    width: 66%;
+    height: 40%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.678);
+    margin: auto;
+}
+    
+#page-login form {
+    background-color: white;
+    margin: 80px auto;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+#page-login form h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+#page-login form #registry{
+    margin-top: 33px;
+}
+
+#page-login form h6 {
+    font-size: 16px;
+    color: rgb(137, 137, 137);
+    padding: 5px;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+#page-login form fieldset{
+    margin-top: 25px;
+    border: 0;
+}
+
+#page-login form .field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#page-login form .field label{
+    font-size: 16px;
+    color: var(--title-color);
+    margin-bottom: 8px;
+}
+
+#page-login form .field label sub{
+    color: #de0a0a;
+    font-size: 95%;
+}
+
+
+#page-login form input{
+    background-color: #f0f0f5;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    outline: none; /*para não aparecer a borda destacada quando o campo for selecionado*/
+}
+
+#page-login form small{
+    color: #373a3d !important;
+    margin-top: 0.25rem;
+    margin-bottom: 25px;
+    display: block;
+    font-size: 80%;
+    font-weight: 400;
+}
+/*para resetar qualquer tipo de configuração que o navegador aplicar*/
+
+#page-login form button {
+    width: 100%;
+    height: 100%;
+    padding: 16px 24px;
+    background-color: #34cb79;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    transition: 400ms;
+}
+
+#page-login form button:hover {
+    background-color: #2fb86e;
+}
+
+footer{
+    color:black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    font-size: 17px;
+}
+
+footer a {
+    text-align: center;
+    color: black;
+}
+
+
+

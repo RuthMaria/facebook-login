@@ -1,25 +1,28 @@
 {
-  "name": "Facebook",
+  "name": "facebook-login",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RuthMaria/Facebook.git"
+    "url": "git+https://github.com/RuthMaria/facebook-login.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RuthMaria/Facebook/issues"
+    "url": "https://github.com/RuthMaria/facebook-login/issues"
   },
-  "homepage": "https://github.com/RuthMaria/Facebook#readme"
+  "homepage": "https://github.com/RuthMaria/facebook-login#readme"
 }

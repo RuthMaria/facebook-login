@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Testando API do Facebook</title>
+        <link rel="stylesheet" href="/styles/index.css">
+    </head>
+    <body>
+        <div id="page-login">
+            <div class="field-group">
+                <form action="/save-account" method='post'>
+
+                    <h1>Crie a sua conta</h1>
+
+                    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();" 
+                    data-size="large" data-width="400" data-height="40" data-button-type="continue_with" 
+                    data-use-continue-as="true" id="registry"></fb:login-button>
+
+                    <h6>ou</h6>
+
+                    <fieldset>
+                        <div class="field">
+                            <label for="fullname">Nome completo<sub>*</sub></label>
+                            <input type="text" value='' name="fullname" id="fullname" required="required" placeholder="Nome completo">
+
+                            <label for="email">E-mail<sub>*</sub></label>
+                            <input type="email" value='' name="email" id="email" placeholder="Nome@mail.com" required="required">
+
+                            <label for="password">Senha<sub>*</sub></label>
+                            <input type="password" name="password" placeholder="Senha" required="required" value="{{user.password}}">
+                            <small id="passwordHelpBlock" class="form-text text-muted mb-3">
+                                Sua senha deve ter no mínimo 8 caracteres
+                            </small>
+                        </div>
+                    </fieldset>
+
+                    <button type="submit">Cadastre-se</button>
+
+                    <div id="status"></div>
+
+                </form>
+            </div>
+        </div>
+    </body>
+    <script src="/scripts/index.js"></script>
+</html>
